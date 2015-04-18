@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  model: MyString
+  color: MyString
+  capacity: 1
+  number_pockets: 1
+  waterproof: MyString
+  price: 1
+
+two:
+  model: MyString
+  color: MyString
+  capacity: 1
+  number_pockets: 1
+  waterproof: MyString
+  price: 1

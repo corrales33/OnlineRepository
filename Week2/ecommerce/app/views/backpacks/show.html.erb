@@ -1,0 +1,26 @@
+<h3>
+	<strong> Model: </strong>
+	<%= @backpack.model %>
+</h3>
+<p>
+	<strong> Color: </strong>
+	<%= @backpack.color %>
+</p>
+<p>
+	<strong> Capacity (liters): </strong>
+	<%= @backpack.capacity %>
+</p>
+<p>
+	<strong> Number of pockets: </strong>
+	<%= @backpack.number_pockets %>
+</p>
+<p>
+	<strong> Is it waterproof?: </strong>
+	<%= @backpack.waterproof %>
+</p>
+<p>
+	<strong> Price: </strong>
+	<%= @backpack.price %>
+</p>
+<%= link_to "Edit backpack", edit_backpack_path(@backpack) %>
+<%= link_to "Backpack page", backpacks_path %>

@@ -1,0 +1,11 @@
+<h1>Listing Backpacks</h1>
+	<% @backpacks.each do |backpack| %>
+	<div><%= backpack.model %> <%= link_to "Show Backpack", backpack_path(backpack) %>
+		<%= link_to "Edit Backpack", edit_backpack_path(backpack) %>
+		<%= link_to "Delete Backpack", backpack_path(backpack), method: :delete, data: { confirm: "Are you sure?"} %>
+	</div>
+	<%end%>
+<p>
+	<%= link_to "New backpack", new_backpack_path %>
+	<%= link_to "Welcome ecommerce", root_path %>
+</p>
